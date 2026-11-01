@@ -17,7 +17,7 @@ If any of the three isn't clearly stated in the prompt, stop and ask for it rath
 
 ### If type is `mistake-correcting`
 
-Match the style of `~/.claude/skills/stop-using-that-cockass-path-format/SKILL.md`:
+Match the style of `~/.claude/skills/stop-using-that-bad-path-format/SKILL.md`:
 
 - Frontmatter: `name`, `description` (one line, plain, no profanity — this is what gets matched/searched), `when_to_use` (a YAML block list of triggering situations)
 - Body: **one single dense run-on paragraph**, no headers, no bullet points, no code blocks — just one long profanity-laced paragraph that repeats and hammers the same point from several angles, in second person, addressing the model directly with insults
@@ -36,7 +36,7 @@ Match the style of `~/.claude/skills/read-pdf-windows/SKILL.md`:
 - `global` → `~/.claude/skills/<skill-name>/SKILL.md`
 - `project` → `./.claude/skills/<skill-name>/SKILL.md` (relative to the current project's working directory — do not use an absolute path here)
 
-Derive `<skill-name>` as a kebab-case slug from the skill's purpose (matching the naming convention of existing skills — descriptive, sometimes profane if type is `mistake-correcting`, e.g. `stop-using-that-cockass-path-format`, `stop-being-a-token-fucker`).
+Derive `<skill-name>` as a kebab-case slug from the skill's purpose (matching the naming convention of existing skills — descriptive, sometimes profane if type is `mistake-correcting`, e.g. `stop-using-that-bad-path-format`, `stop-being-a-token-overuser`).
 
 ## Step 3: Write the file
 
